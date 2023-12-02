@@ -1,11 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(background.png)center/cover fixed;
+    background: url(img/background.png)center/cover fixed;
     font-family: "ＭＳ Ｐゴシック";
     font-size: 75%;
 }
-
 .box {
     width: 450px;
     background: rgba(0, 0, 0, 0);
@@ -38,7 +37,6 @@ ul {
     list-style: none;
 
 }
-
 .box li a {
     color: rgb(141, 140, 140);
     font-size: 50px;
@@ -56,4 +54,4 @@ ul {
 }
 .box h1, h4 {
     margin: 3px 0;
-  }
+}
