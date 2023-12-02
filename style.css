@@ -1,25 +1,59 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(back-page.png);
-    
+    background: url(background.png)center/cover fixed;
     font-family: "ＭＳ Ｐゴシック";
     font-size: 75%;
 }
 
 .box {
     width: 450px;
-    background: whitesmoke;
+    background: rgba(0, 0, 0, 0);
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 1%;
 }
 .box img {
     height: 200px;
     width: 200px;
     cursor: pointer;
+    transition: 0.5s;
 
 }
 .box img:hover {
+    transform: scale(1);
 }
+.box p {
+    text-align: center;
+    color: rgb(141, 140, 140);
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+
+.box li a {
+    color: rgb(141, 140, 140);
+    font-size: 50px;
+    transition: all ease-in-out 10ms;
+
+}
+.box li a:hover {
+    color: whitesmoke;
+}
+.box h1 {
+    color: white;
+}
+.box h4 {
+    color: white;
+}
+.box h1, h4 {
+    margin: 3px 0;
+  }
