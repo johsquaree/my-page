@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(back-page.png);
+    
+    font-family: "ＭＳ Ｐゴシック";
+    font-size: 75%;
+}
+
+.box {
+    width: 450px;
+    background: whitesmoke;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+}
+.box img {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+
+}
+.box img:hover {
+}
