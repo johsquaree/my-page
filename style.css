@@ -39,7 +39,7 @@ ul {
 }
 .box li a {
     color: rgb(141, 140, 140);
-    font-size: 50px;
+    font-size: 20px;
     transition: all ease-in-out 10ms;
 
 }
