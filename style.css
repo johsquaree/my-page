@@ -16,13 +16,8 @@ body{
 .box img {
     height: 200px;
     width: 200px;
-    cursor: pointer;
-    transition: 0.5s;
+}
 
-}
-.box img:hover {
-    transform: scale(1);
-}
 .box p {
     text-align: center;
     color: rgb(141, 140, 140);
